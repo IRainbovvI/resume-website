@@ -159,7 +159,7 @@ header button:hover {
 
 .home-text {
   color: white;
-  border-top: 2px solid #ff4c29;
+
   margin-top: 5%;
 }
 
@@ -170,7 +170,7 @@ header button:hover {
 }
 
 .edu-school-container {
-  border: 2px solid #ff4c29;
+  /* border: 2px solid #ff4c29; */
   border-radius: 20px;
   padding: 1%;
   background-color: rgba(255, 255, 255, 0.2);
@@ -196,7 +196,6 @@ header button:hover {
 }
 
 .skill-container {
-  border: 2px solid #ff4c29;
   border-radius: 20px;
   padding: 1%;
   background-color: rgba(255, 255, 255, 0.2);

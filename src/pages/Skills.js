@@ -16,7 +16,7 @@ export const Skills = () => {
           <Col xs='12' md='6'>
             <div className='skill-container'>
               <h4>Languages</h4>
-              <div id='parallelogram' style={{ width: '70%' }}></div>
+
               <ul className='skill-list'>
                 {langArr.map((item) => {
                   return <Skill key={item.id} item={item} />;
@@ -27,7 +27,7 @@ export const Skills = () => {
           <Col xs='12' md='6'>
             <div className='skill-container'>
               <h4>Skills</h4>
-              <div id='parallelogram' style={{ width: '70%' }}></div>
+
               <ul className='skill-list'>
                 {hardSkills.map((item) => {
                   return <Skill key={item.id} item={item} />;

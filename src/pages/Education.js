@@ -25,7 +25,7 @@ export const Education = () => {
           <Col xs='12' md='6'>
             <div className='edu-school-container'>
               <h4>Certificates</h4>
-              <div id='parallelogram' style={{ width: '70%' }}></div>
+
               <ul>
                 <li>
                   <b>Certificate E.12</b> - Installation and operation of
@@ -48,7 +48,7 @@ export const Education = () => {
           <Col xs='12' md='6'>
             <div className='edu-school-container' style={{ height: '100%' }}>
               <h4>Coursework</h4>
-              <div id='parallelogram' style={{ width: '70%' }}></div>
+
               <ul>
                 <li>Programming Foundations with JavaScript, HTML and CSS</li>
                 <li>Learn JavaScript</li>

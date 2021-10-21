@@ -17,7 +17,7 @@ export const Home = () => {
             </Col>
             <Col xs='12' md='8'>
               <h1 className='home-subtitle home-title'>Vladyslav Prokopchuk</h1>
-              <div id='parallelogram'></div>
+
               <h5 className='home-subtitle'>Junior Front-End Developer</h5>
             </Col>
           </Row>
