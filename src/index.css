@@ -1,13 +1,258 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.no-padding {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+body {
+  background-color: #082032 !important;
+  overflow-y: scroll;
+}
+
+#main-container {
+  border-right: 1px solid #ff4c29;
+  border-left: 1px solid #ff4c29;
+}
+
+.page-container {
+  background-color: #334756;
+  width: 80%;
+  margin: 10vh 10%;
+  border-radius: 2vh;
+}
+
+/* Card */
+.cardContainer {
+  display: float;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+.cardBody {
+  text-align: center;
+  margin: 10vh 2vw;
+  padding: 1vh;
+  color: white;
+  border: 5px solid #ff4c29;
+  border-radius: 5px;
+  font-family: 'Heebo', sans-serif;
+  word-wrap: break-word;
+  transition-duration: 0.5s;
+}
+
+.cardBody p {
+  color: silver;
+}
+
+.cardBody:hover {
+  background-color: #082032;
+}
+
+/* Navbar */
+.navbar-main {
+  background-color: #2c394b;
+  min-height: 100vh;
+}
+
+nav {
+  color: white;
+  text-align: center;
+  background-color: #2c394b;
+}
+
+.nav-container {
+  padding: 5px;
+}
+
+nav h4 {
+  margin: 4vh;
+}
+
+nav .link {
+  text-decoration: 3px underline #082032;
+  text-underline-offset: 5px;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+nav .link:hover {
+  color: white;
+  text-decoration: 3px underline #ff4c29;
+}
+
+/* CardHeader */
+header {
+  background-color: #2c394b;
+  height: 100px;
+  position: relative;
+  border-bottom: 2px solid #ff4c29;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+header h4 {
+  color: white;
+  font-family: 'Heebo', sans-serif;
+}
+
+header button {
+  background-color: transparent;
+  color: #ff4c29;
+  padding: 2vw 3vw;
+  border: 2px solid #ff4c29;
+  border-radius: 30%;
+  transition-duration: 0.5s;
+}
+
+header button:hover {
+  background-color: #082032;
+}
+
+/* Home */
+.inner-home-container {
+  padding: 2vw;
+}
+
+.photo-container {
+  margin: 5%;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 3%;
+  background-color: #082032;
+}
+
+#parallelogram {
+  width: 100%;
+  height: 6px;
+  transform: skew(50deg);
+  background: #ff4c29;
+}
+
+.home-subtitle {
+  text-align: center;
+}
+
+.home-title {
+  color: white;
+  margin-top: 5%;
+}
+
+.home-text {
+  color: white;
+  border-top: 2px solid #ff4c29;
+  margin-top: 5%;
+}
+
+/* Education */
+.edu-schools li {
+  padding: 3%;
+  list-style-type: none;
+}
+
+.edu-school-container {
+  border: 2px solid #ff4c29;
+  border-radius: 20px;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Experience */
+.experience-text {
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  color: white;
+}
+
+/* Skills */
+#skill-lvl-1 {
+  border: 1px solid #ff4c29;
+  border-radius: 10px;
+  width: 25%;
+  margin: 5px 4%;
+  height: 0.5rem;
+  background-color: #ff4c29;
+  float: left;
+}
+
+.skill-container {
+  border: 2px solid #ff4c29;
+  border-radius: 20px;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 5% 0;
+}
+
+.skill-point-container {
+  width: 30%;
+  min-height: 100%;
+  float: right;
+  margin: 0 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.skill-list {
+  padding-left: 0;
+  margin-top: 5%;
+}
+.skill-list li {
+  margin: 2% 0;
+  list-style-type: none;
+}
+
+.skill-lvl-name {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.dark {
+  background-color: #2c394b;
+}
+
+/* Contact */
+.contact-container {
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  color: white;
+}
+
+.contact-inner-container {
+  margin-top: 8%;
+  font-size: 2rem;
+}
+
+.single-item-container {
+  margin: 5%;
+  padding: 4%;
+  border: 3px solid #ff4c29;
+  border-radius: 10px;
+  color: white;
+  transition: 0.5s;
+}
+
+.single-item-container:hover {
+  background-color: #2c394b;
 }
