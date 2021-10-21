@@ -24,12 +24,12 @@ export const Home = () => {
           <Row>
             <Col>
               <p className='home-text'>
-                A hard-working individual with knowledge in HTML, JavaScript,
-                and CSS, as well as the ability to communicate and work in a
-                team effectively seeks to apply for the position of Junior
-                Front-end Developer. Hope to show my problem-solving and
-                fast-learning skills. I am going to make your company even
-                greater with all my knowledge.
+                A hard-working programmer with knowledge in HTML, JavaScript,
+                and CSS applies for the position of Junior Front-end Developer.
+                My problem-solving and fast-learning skills compensate for my
+                lack of experience. I will make a significant contribution to
+                the project. Moreover, I can work in a team and under pressure.
+                I always follow deadlines and know how to work with reports.
               </p>
             </Col>
           </Row>
