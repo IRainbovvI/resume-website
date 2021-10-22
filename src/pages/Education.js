@@ -5,7 +5,7 @@ import '../index.css';
 
 export const Education = () => {
   return (
-    <div>
+    <div className='edu'>
       <ul className='edu-schools no-padding'>
         <li>
           <article className='edu-school-container'>
@@ -23,7 +23,7 @@ export const Education = () => {
       <Container>
         <Row style={{ paddingBottom: '3%' }}>
           <Col xs='12' md='6'>
-            <div className='edu-school-container'>
+            <div className='edu-school-container extra'>
               <h4>Certificates</h4>
 
               <ul>
@@ -46,7 +46,10 @@ export const Education = () => {
             </div>
           </Col>
           <Col xs='12' md='6'>
-            <div className='edu-school-container' style={{ height: '100%' }}>
+            <div
+              className='edu-school-container extra'
+              style={{ height: '100%' }}
+            >
               <h4>Coursework</h4>
 
               <ul>
